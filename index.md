@@ -1,6 +1,6 @@
 
 
-<h1 align="center">Wolf Cukier</h1>
+<h1 align="center"><a href="index.html">Wolf Cukier</a></h1>
 <p align="center"> <a href="mailto:wcukier@princeton.edu"> wcukier@princeton.edu</a></p>
 
 Department of Astrophysical Sciences
@@ -12,5 +12,5 @@ Certificates in Planets and Life, Applications of Computing, Applied and Computa
 
 ***
 
-|[About](about.md)|[CV](cv.pdf)|[Research](research.md)|[Classes](classes.md)|
-|--------|-------------------|-----|-|
+|[About](about.md)|[CV](cv.pdf)|[Research](research.md)|
+|--------|-------------------|-----|
