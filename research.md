@@ -1,4 +1,4 @@
-<h1 align="center"><a href="wolfcukier.com">Wolf Cukier</a></h1>
+<h1 align="center"><a href="">Wolf Cukier</a></h1>
 
 ## My Research
 
