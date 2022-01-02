@@ -1,5 +1,7 @@
 
-# Wolf Cukier
+
+<h1 align="center">Wolf Cukier</h1>
+<p align="center"> <a href="mailto:wcukier@princeton.edu"> wcukier@princeton.edu</a></p>
 
 Department of Astrophysical Sciences
 
@@ -7,6 +9,8 @@ Princeton University, Class of 2024
 
 Certificates in Planets and Life, Applications of Computing, Applied and Computational Mathematics
 
-[wcukier@princeton.edu](mailto:wcukier@princeton.edu)
+
 ***
-[Research](research.md)
+
+|[About](about.md)|[CV](cv.pdf)|[Research](research.md)|[Classes](classes.md)|
+|--------|-------------------|-----|-|
