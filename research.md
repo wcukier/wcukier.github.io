@@ -23,7 +23,7 @@ Below is the original lightcurve that I saw-- the dip between day-14 and day-15 
 There was a lot of news coverage surrounding this discovery, the following are a couple of my favorites:
  - [Discovery of TESS Mission’s First Circumbinary Planet](https://www.centauri-dreams.org/2020/01/07/discovery-of-tess-missions-first-circumbinary-planet/) by Dr. Ravi Kopparapu -- My advisor from the previous summer and secondary advisor that summer
 
- -[A teenager discovered a new planet on the third day of his NASA internship](https://www.washingtonpost.com/technology/2020/01/10/teenager-discovered-new-planet-third-day-his-nasa-internship/) by the Washington Post
+ - [A teenager discovered a new planet on the third day of his NASA internship](https://www.washingtonpost.com/technology/2020/01/10/teenager-discovered-new-planet-third-day-his-nasa-internship/) by the Washington Post
 
 
 ### Circumbinary Habitable Zones
