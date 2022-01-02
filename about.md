@@ -12,4 +12,4 @@ On a more personal level, I have been reading and enjoying a lot of science fict
 
 - The Realm of the Elderlings by Robin Hobb
 
-- The Expanse by S. A. Corey
+- The Expanse by James S. A. Corey
