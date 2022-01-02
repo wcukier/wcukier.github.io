@@ -1,7 +1,5 @@
----
-title: Wolf Cukier
----
 
-6:23 
-hello world
-This is a test of the md
+# Wolf Cukier
+Department of Astrophysical Sciences, Princeton University, Class of 2024
+Certificates in Planets and Life, Applications of Computing, Applied and Computational Mathematics
+[wcukier@princeton.edu](mailto:wcukier@princeton.edu)
