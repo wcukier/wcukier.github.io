@@ -12,5 +12,5 @@ Certificates in Planets and Life, Applications of Computing, Applied and Computa
 
 ***
 
-|[About](about.md)|[CV](cv.pdf)|[Research](research.md)|
+|[About](about.md)|[CV](CV.pdf)|[Research](research.md)|
 |--------|-------------------|-----|
