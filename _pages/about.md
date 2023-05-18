@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "This is Wolf Cukier's Personal Website"
+title: "About"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
