@@ -1,12 +1,14 @@
-{ "3": {
+{
+   "3": {
     "pub_date": "2023-05-12",
     "title": "ABM-2: An improved Absolute Beam Monitor",
-    "body": "An absolute beam monitor (ABM) is a device used to measure the properties of a beam line, such as the one used in the Space Physics Laboratory at Princeton.  As a class, we were given the year long project to improve on the previous ABM design with the ultimate goal of 10 ABMs being built to aid the IMAP mission with calibration efforts.  Our new ABM, along with some quality of life and instrument safety improvements, was designed to be wider so that more of the electrons actually hit the electron detectors.  For comparason, our new ABM (ABM-2) achieved a ~15% efficiency for 5keV p+ particles while the ABM-1 only was able to achieve <1% efficiency.  Our presentation describing the project is avalable [here](files/CDR.pdf)",
+    "body": "An absolute beam monitor (ABM) is a device used to measure the properties of a beam line, such as the one used in the Space Physics Laboratory at Princeton.  As a class, we were given the year long project to improve on the previous ABM design with the ultimate goal of 10 ABMs being built to aid the IMAP mission with calibration efforts.  Our new ABM, along with some quality of life and instrument safety improvements, was designed to be wider so that more of the electrons actually hit the electron detectors.  For comparason, our new ABM (ABM-2) achieved a ~15% efficiency for 5keV p+ particles while the ABM-1 only was able to achieve <1% efficiency.  Our presentation describing the project is avalable [here](../files/CDR.pdf).",
     "venue": "Class Presentation",
     "excerpt": "This was the project we completed in the year long laboratory class AST250/251",
     "citation": "N/A",
     "url_slug": "ABM",
-    "paper_url": ""
+    "paper_url": "",
+    "published": false
  },
  "2": {
     "pub_date": "2019-11-23",
@@ -16,16 +18,18 @@
     "excerpt": "We used a climate model to understand the habitable zone of circumbinary planets",
     "citation": "Veselin B. Kostov *et al* 2020 *AJ* **159** 253",
     "url_slug": "CBP-HZ",
-    "paper_url": "https://arxiv.org/pdf/1911.02983.pdf"
+    "paper_url": "https://arxiv.org/pdf/1911.02983.pdf",
+    "published": true
  },
  "1": {
     "pub_date": "2020-05-07",
     "title": "TOI-1338: TESS' First Transiting Circumbinary Planet",
-    "body": "TOI-1338 b is the planet that I helped to discover in the summer before my senior year of high school while I was working with [Dr. Veselin Kostov](http://www.veselinbkostov.com/) at NASA Goddard Space Flight Center.  I was searching through targets identified as Eclipsing Binaries on the citizen science project [Planet Hunters TESS](https://www.zooniverse.org/projects/nora-dot-eisner/planet-hunters-tess) when I noticed an interesting target.  \nBelow is the original lightcurve that I saw-- the dip between day-14 and day-15 is the primary eclipse (i.e. when the smaller star blocks the light of the bigger star) and the smaller dip between days 15 and 16 is the planetary transit.\n![](files/TOI1338+PH.png)\n*Image Credit [Planet Hunters TESS](https://www.zooniverse.org/projects/nora-dot-eisner/planet-hunters-tess)*\nThere was a lot of news coverage surrounding this discovery, the following are a couple of my favorites:\n- [Discovery of TESS Mission’s First Circumbinary Planet](https://www.centauri-dreams.org/2020/01/07/discovery-of-tess-missions-first-circumbinary-planet/) by Dr. Ravi Kopparapu -- My advisor from the previous summer and secondary advisor that summer\n- [A teenager discovered a new planet on the third day of his NASA internship](https://www.washingtonpost.com/technology/2020/01/10/teenager-discovered-new-planet-third-day-his-nasa-internship/) by the Washington Post",
+    "body": "TOI-1338 b is the planet that I helped to discover in the summer before my senior year of high school while I was working with [Dr. Veselin Kostov](http://www.veselinbkostov.com/) at NASA Goddard Space Flight Center.  I was searching through targets identified as Eclipsing Binaries on the citizen science project [Planet Hunters TESS](https://www.zooniverse.org/projects/nora-dot-eisner/planet-hunters-tess) when I noticed an interesting target.  \nBelow is the original lightcurve that I saw-- the dip between day-14 and day-15 is the primary eclipse (i.e. when the smaller star blocks the light of the bigger star) and the smaller dip between days 15 and 16 is the planetary transit.\n![](../files/TOI1338+PH.png)\n*Image Credit [Planet Hunters TESS](https://www.zooniverse.org/projects/nora-dot-eisner/planet-hunters-tess)*\nThere was a lot of news coverage surrounding this discovery, the following are a couple of my favorites:\n- [Discovery of TESS Mission’s First Circumbinary Planet](https://www.centauri-dreams.org/2020/01/07/discovery-of-tess-missions-first-circumbinary-planet/) by Dr. Ravi Kopparapu -- My advisor from the previous summer and secondary advisor that summer\n- [A teenager discovered a new planet on the third day of his NASA internship](https://www.washingtonpost.com/technology/2020/01/10/teenager-discovered-new-planet-third-day-his-nasa-internship/) by the Washington Post",
     "venue": "The Astronomical Journal",
     "excerpt": "This paper describes the discovery of the circumbinary planet TOI-1338b.",
     "citation": "Veselin B. Kostov *et al* 2020 *AJ* **159** 253",
     "url_slug": "TOI-1338",
-    "paper_url": "https://iopscience.iop.org/article/10.3847/1538-3881/ab8a48/pdf"
+    "paper_url": "https://iopscience.iop.org/article/10.3847/1538-3881/ab8a48/pdf",
+    "published": true
  }
 }
