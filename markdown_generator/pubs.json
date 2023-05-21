@@ -1,6 +1,6 @@
 {
    "6": {
-      "pub_date": "2023-05",
+      "pub_date": "2023-05-01",
       "title": "Formation, Structure, and Detectability of the Geminids Meteoroid Stream.",
       "body": "I worked with Dr. Jamey Szalay to model the formation and evolution of the Geminids stream and compare our results with Parker Solar Probe data and Earth observations. Presented as an iPoster at AAS 241. A github repository containing part of the code I worked on is available [here](https://github.com/wcukier/Phaethon_Meteoroids).",
       "venue": "Planetary Science Journal",
@@ -10,7 +10,7 @@
       "paper_url": "",
       "published": false
    },"5": {
-      "pub_date": "2022-05",
+      "pub_date": "2022-05-01",
       "title": "Natural Transport of Microbes from Early Venus to an Archean Earth.",
       "body": "I worked with Dr. Chris Chyba to estimate, given the hypothetical of microbial life existing on Venus before Earth, the likelihood that such life would have been transferred viably to Earth on meteor ejecta.  This work was conducted as part of my Spring Junior Paper.  A github repository containing part of the code I worked on is available [here](https://github.com/wcukier/Venus_JP).",
       "venue": "Junior Paper",
@@ -21,7 +21,7 @@
       "published": false
    },
    "4": {
-   "pub_date": "2023-01",
+   "pub_date": "2023-01-01",
    "title": "Polarized Raytracing of Black Hole Magnetospheres",
    "body": "I worked with Dr. Benjamin Crinquand and Dr. Anatoly Spitkovsky to extract observables relating to the polarized light from Particle-In-Cell simulations of Kerr Black Holes.  This work was conducted as part of my Fall Junior Paper.  A github repository containing part of the code I worked on is available [here](https://github.com/wcukier/polarized_raytracing_public).",
    "venue": "Junior Paper",
