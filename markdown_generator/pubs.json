@@ -2,7 +2,7 @@
    "6": {
       "pub_date": "2023-05-01",
       "title": "Formation, Structure, and Detectability of the Geminids Meteoroid Stream.",
-      "body": "I worked with Dr. Jamey Szalay to model the formation and evolution of the Geminids stream and compare our results with Parker Solar Probe data and Earth observations. Presented as an iPoster at AAS 241. A github repository containing part of the code I worked on is available [here](https://github.com/wcukier/Phaethon_Meteoroids).",
+      "body": "I worked with Dr. Jamey Szalay to model the formation and evolution of the Geminids stream and compare our results with Parker Solar Probe data and Earth observations. Presented as an iPoster at AAS 241. A github repository containing the code I worked on for this project is available [here](https://github.com/wcukier/Phaethon_Meteoroids).",
       "venue": "Planetary Science Journal",
       "excerpt": "We present three posible formation models for the Geminids and compare PSP data, along with data at Earth",
       "citation": "N/A",
@@ -12,7 +12,7 @@
    },"5": {
       "pub_date": "2022-05-01",
       "title": "Natural Transport of Microbes from Early Venus to an Archean Earth.",
-      "body": "I worked with Dr. Chris Chyba to estimate, given the hypothetical of microbial life existing on Venus before Earth, the likelihood that such life would have been transferred viably to Earth on meteor ejecta.  This work was conducted as part of my Spring Junior Paper.  A github repository containing part of the code I worked on is available [here](https://github.com/wcukier/Venus_JP).",
+      "body": "I worked with Dr. Chris Chyba to estimate, given the hypothetical of microbial life existing on Venus before Earth, the likelihood that such life would have been transferred viably to Earth on meteor ejecta.  This work was conducted as part of my Spring Junior Paper.  A github repository containing the code I worked on is available [here](https://github.com/wcukier/Venus_JP).",
       "venue": "Junior Paper",
       "excerpt": "My Spring JP",
       "citation": "N/A",
