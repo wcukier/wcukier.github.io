@@ -5,7 +5,7 @@
       "body": "I worked with Dr. Jamey Szalay to model the formation and evolution of the Geminids stream and compare our results with Parker Solar Probe data and Earth observations. A short video summarizing the research is here: \n<iframe width='560' height='315' src='https://www.youtube-nocookie.com/embed/Q6rXiN6Bc64' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' allowfullscreen></iframe>\n  The two main conclusions from the study were that 1) The origin of the Geminids shower was likely a catastrophic event and 2) The Geminids stream is unlikely to be detectable by a spacecraft using a dust detector.  \nThis research was also presented as an iPoster at AAS 241. A github repository containing the code I worked on for this project is available [here](https://github.com/wcukier/Phaethon_Meteoroids).",
       "venue": "Planetary Science Journal",
       "excerpt": "We present three posible formation models for the Geminids and compare PSP data, along with data at Earth",
-      "citation": "W. Z. Cukier and J. R. Szalay 2023 Planet. Sci. J. 4 109",
+      "citation": "W. Z. Cukier and J. R. Szalay 2023 *Planet. Sci. J.* **4** 109",
       "url_slug": "Geminids",
       "paper_url": "https://doi.org/10.3847/PSJ/acd538",
       "published": true
@@ -15,7 +15,7 @@
       "body": "I worked with Dr. Chris Chyba to estimate, given the hypothetical of microbial life existing on Venus before Earth, the likelihood that such life would have been transferred viably to Earth on meteor ejecta.  This work was conducted as part of my Spring Junior Paper.  A github repository containing the code I worked on is available [here](https://github.com/wcukier/Venus_JP).",
       "venue": "Junior Paper",
       "excerpt": "My Spring JP",
-      "citation": "N/A",
+      "citation": "",
       "url_slug": "Venus-JP",
       "paper_url": "",
       "published": false
@@ -26,7 +26,7 @@
    "body": "I worked with Dr. Benjamin Crinquand and Dr. Anatoly Spitkovsky to extract observables relating to the polarized light from Particle-In-Cell simulations of Kerr Black Holes.  This work was conducted as part of my Fall Junior Paper.  A github repository containing part of the code I worked on is available [here](https://github.com/wcukier/polarized_raytracing_public).",
    "venue": "Junior Paper",
    "excerpt": "My Fall JP",
-   "citation": "N/A",
+   "citation": "",
    "url_slug": "Black-Hole-JP",
    "paper_url": "",
    "published": false
@@ -37,7 +37,7 @@
     "body": "An absolute beam monitor (ABM) is a device used to measure the properties of a beam line, such as the one used in the Space Physics Laboratory at Princeton.  As a class, we were given the year long project to improve on the previous ABM design with the ultimate goal of 10 ABMs being built to aid the IMAP mission with calibration efforts.  Our new ABM, along with some quality of life and instrument safety improvements, was designed to be wider so that more of the electrons actually hit the electron detectors.  For comparason, our new ABM (ABM-2) achieved a ~15% efficiency for 5keV p+ particles while the ABM-1 only was able to achieve <1% efficiency.  Our presentation describing the project is avalable [here](../files/CDR.pdf).",
     "venue": "Class Presentation",
     "excerpt": "This project was completed in the year long laboratory class AST250/251",
-    "citation": "N/A",
+    "citation": "",
     "url_slug": "ABM",
     "paper_url": "",
     "published": false
