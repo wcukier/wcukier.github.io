@@ -9,7 +9,6 @@ redirect_from:
 ---
 
 
-## About Me
 I am currently an Undergraduate Student at Princeton University, Class of 2024.  I am concentrating (i.e. majoring) in Astrophysical Sciences.  I am also getting certificates (i.e. minors) in Planets and Life (Astrobiology), Applications of Computing, and Applied and Computational Mathematics.  Although I am sure I want to study something in the realm of astrophysics, I am still exploring my options--astrobiology and exoplanets are two major contenders at this moment.
 
 
