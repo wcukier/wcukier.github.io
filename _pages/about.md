@@ -15,6 +15,8 @@ I am currently an Undergraduate Student at Princeton University, Class of 2024. 
 ## (Sci-Fi/Fantasy) Book Recommendations
 - The Broken Earth Trilogy by N. K. Jemisin
 
+- The Green Bone Saga by Fonda Lee
+
 - Mistborn by Brandon Sanderson (and the rest of the Cosmere)
 
 - The Realm of the Elderlings by Robin Hobb
