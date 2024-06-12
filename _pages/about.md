@@ -8,11 +8,13 @@ redirect_from:
   - /about.html
 ---
 
+Hi!  I'm a Graduate Student at UChicago (entering Fall 2024) and am pursuing a PhD in Astronomy and Astrophysics.  I am generally interested in exoplanets, mostly from a theoretical or computational perspective.
 
-I am currently an Undergraduate Student at Princeton University, Class of 2024.  I am concentrating (i.e. majoring) in Astrophysical Sciences.  I am also getting certificates (i.e. minors) in Planets and Life (Astrobiology), Applications of Computing, and Applied and Computational Mathematics.  Although I am sure I want to study something in the realm of astrophysics, I am still exploring my options--astrobiology and exoplanets are two major contenders at this moment.
 
 
 ## (Sci-Fi/Fantasy) Book Recommendations
+- An Unkindness of Ghosts by Rivers Solomin
+  
 - The Broken Earth Trilogy by N. K. Jemisin
 
 - The Green Bone Saga by Fonda Lee
