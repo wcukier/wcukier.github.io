@@ -13,7 +13,7 @@ Hi!  I'm a Graduate Student at UChicago (entering Fall 2024) and am pursuing a P
 
 
 ## (Sci-Fi/Fantasy) Book Recommendations
-- An Unkindness of Ghosts by Rivers Solomin
+- An Unkindness of Ghosts by Rivers Solomon
   
 - The Broken Earth Trilogy by N. K. Jemisin
 
