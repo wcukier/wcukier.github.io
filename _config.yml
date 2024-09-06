@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Wolf Cukier"
   avatar           : "profile.png"
-  bio              : "Astrophysics Undergraduate @ Princeton University"
-  location         : "Peyton Hall 030"
+  bio              : "Astronomy and Astrophysics PhD Student @ University of Chicago"
+  location         : "Eckhardt Research Center, 5th Floor"
   employer         :
   pubmed           :
   googlescholar    : https://scholar.google.com/citations?user=cGUJ6AYAAAAJ&hl=en
-  email            : wolfcukier@gmail.com
+  email            : wcukier@uchicago.edu
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : WolfCukier
+  twitter          :
   vine             :
   weibo            :
   xing             :
