@@ -1,0 +1,67 @@
+{
+   "6": {
+      "pub_date": "2023-06-15",
+      "title": "Formation, Structure, and Detectability of the Geminids Meteoroid Stream.",
+      "body": "I worked with Dr. Jamey Szalay to model the formation and evolution of the Geminids stream and compare our results with Parker Solar Probe data and Earth observations. A short video summarizing the research is here: \n\n{% include geminids_movie.html %}\n\n  The two main conclusions from the study were that 1) The origin of the Geminids shower was likely a catastrophic event and 2) The Geminids stream is unlikely to be detectable by a spacecraft using a dust detector.  \nThis research was also presented as an iPoster at AAS 241. A github repository containing the code I worked on for this project is available [here](https://github.com/wcukier/Phaethon_Meteoroids).",
+      "venue": "Planetary Science Journal",
+      "excerpt": "We present three posible formation models for the Geminids and compare PSP data, along with data at Earth",
+      "citation": "W. Z. Cukier and J. R. Szalay 2023 *Planet. Sci. J.* **4** 109",
+      "url_slug": "Geminids",
+      "paper_url": "https://doi.org/10.3847/PSJ/acd538",
+      "published": true
+   },"5": {
+      "pub_date": "2022-05-01",
+      "title": "Natural Transport of Microbes from Early Venus to an Archean Earth.",
+      "body": "I worked with Dr. Chris Chyba to estimate, given the hypothetical of microbial life existing on Venus before Earth, the likelihood that such life would have been transferred viably to Earth on meteor ejecta.  This work was conducted as part of my Spring Junior Paper.  A github repository containing the code I worked on is available [here](https://github.com/wcukier/Venus_JP).",
+      "venue": "Junior Paper",
+      "excerpt": "My Spring JP",
+      "citation": "",
+      "url_slug": "Venus-JP",
+      "paper_url": "",
+      "published": false
+   },
+   "4": {
+   "pub_date": "2023-01-01",
+   "title": "Polarized Raytracing of Black Hole Magnetospheres",
+   "body": "I worked with Dr. Benjamin Crinquand and Dr. Anatoly Spitkovsky to extract observables relating to the polarized light from Particle-In-Cell simulations of Kerr Black Holes.  This work was conducted as part of my Fall Junior Paper.  A github repository containing part of the code I worked on is available [here](https://github.com/wcukier/polarized_raytracing_public).",
+   "venue": "Junior Paper",
+   "excerpt": "My Fall JP",
+   "citation": "",
+   "url_slug": "Black-Hole-JP",
+   "paper_url": "",
+   "published": false
+},
+   "3": {
+    "pub_date": "2023-05-12",
+    "title": "ABM-2: An improved Absolute Beam Monitor",
+    "body": "An absolute beam monitor (ABM) is a device used to measure the properties of a beam line, such as the one used in the Space Physics Laboratory at Princeton.  As a class, we were given the year long project to improve on the previous ABM design with the ultimate goal of 10 ABMs being built to aid the IMAP mission with calibration efforts.  Our new ABM, along with some quality of life and instrument safety improvements, was designed to be wider so that more of the electrons actually hit the electron detectors.  For comparason, our new ABM (ABM-2) achieved a ~15% efficiency for 5keV p+ particles while the ABM-1 only was able to achieve <1% efficiency.  Our presentation describing the project is avalable [here](../files/CDR.pdf).",
+    "venue": "Class Presentation",
+    "excerpt": "This project was completed in the year long laboratory class AST250/251",
+    "citation": "",
+    "url_slug": "ABM",
+    "paper_url": "",
+    "published": false
+ },
+ "2": {
+    "pub_date": "2019-11-23",
+    "title": "Habitable Zone Boundaries for Circumbinary Planets",
+    "body": "This was the research that I did the summer before my junior year of high school with [Dr. Ravi Kopparapu.](https://personal.ems.psu.edu/~ruk15/)  The goal of this research was to characterize the liquid water habitable zone for circumbinary planets, planets that orbit two stars.  Most of my work on this project was spent hacking together a way for the Atmos Climate Model as updated by [Kopparapu et. al. 2013](https://arxiv.org/abs/1301.6674) to simulate a two star system instead of a one star system.",
+    "venue": "Publications of the Astronomical Society of the Pacific",
+    "excerpt": "We used a climate model to understand the habitable zone of circumbinary planets",
+    "citation": "Wolf Cukier *et al* 2019 *PASP* **131** 124402",
+    "url_slug": "CBP-HZ",
+    "paper_url": "https://arxiv.org/pdf/1911.02983.pdf",
+    "published": true
+ },
+ "1": {
+    "pub_date": "2020-05-07",
+    "title": "TOI-1338: TESS' First Transiting Circumbinary Planet",
+    "body": "TOI-1338 b is the planet that I helped to discover in the summer before my senior year of high school while I was working with [Dr. Veselin Kostov](http://www.veselinbkostov.com/) at NASA Goddard Space Flight Center.  I was searching through targets identified as Eclipsing Binaries on the citizen science project [Planet Hunters TESS](https://www.zooniverse.org/projects/nora-dot-eisner/planet-hunters-tess) when I noticed an interesting target.  \nBelow is the original lightcurve that I saw-- the dip between day-14 and day-15 is the primary eclipse (i.e. when the smaller star blocks the light of the bigger star) and the smaller dip between days 15 and 16 is the planetary transit.\n![](../files/TOI1338+PH.png)\n*Image Credit [Planet Hunters TESS](https://www.zooniverse.org/projects/nora-dot-eisner/planet-hunters-tess)*\nThere was a lot of news coverage surrounding this discovery, the following are a couple of my favorites:\n- [Discovery of TESS Mission’s First Circumbinary Planet](https://www.centauri-dreams.org/2020/01/07/discovery-of-tess-missions-first-circumbinary-planet/) by Dr. Ravi Kopparapu -- My advisor from the previous summer and secondary advisor that summer\n- [A teenager discovered a new planet on the third day of his NASA internship](https://www.washingtonpost.com/technology/2020/01/10/teenager-discovered-new-planet-third-day-his-nasa-internship/) by the Washington Post",
+    "venue": "The Astronomical Journal",
+    "excerpt": "This paper describes the discovery of the circumbinary planet TOI-1338b.",
+    "citation": "Veselin B. Kostov *et al* 2020 *AJ* **159** 253",
+    "url_slug": "TOI-1338",
+    "paper_url": "https://iopscience.iop.org/article/10.3847/1538-3881/ab8a48/pdf",
+    "published": true
+ }
+}
