@@ -128,7 +128,9 @@
 
 <!-- end custom head snippets -->
 
+
   </head>
+
 
   <body>
 
@@ -151,12 +153,18 @@
             
             <li class="masthead__menu-item"><a href="http://localhost:4000/blog/">Posts</a></li>
           
+            
+            <li class="masthead__menu-item"><a href="http://localhost:4000/files/cv.pdf">CV</a></li>
+          
         </ul>
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
   </div>
 </div>
+    <!-- <div class="banner">
+      <img src="/images/banner.jpg" alt="Banner Image">
+  </div> -->
 
     
 
@@ -1161,3 +1169,28 @@
   </body>
 </html>
 
+<!-- <script>
+  let lastScrollY = window.scrollY;
+
+  document.addEventListener('scroll', debounce(() => {
+      const banner = document.querySelector('.banner');
+      const scrollY = window.scrollY;
+
+      const fadeStart = 30; // Adjust this value
+
+      if (scrollY > fadeStart) {
+          banner.classList.add('hidden');
+      } else {
+          banner.classList.remove('hidden');
+      }
+  }, 100)); // Adjust debounce time as needed
+
+  function debounce(func, wait) {
+      let timeout;
+      return function(...args) {
+          const context = this;
+          clearTimeout(timeout);
+          timeout = setTimeout(() => func.apply(context, args), wait);
+      };
+  }
+  </script> -->

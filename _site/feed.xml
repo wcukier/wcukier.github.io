@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-09-06T08:12:08-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Wolf Cukier</title><subtitle>Astrophysics</subtitle><author><name>Wolf Cukier</name><email>wcukier@uchicago.edu</email></author><entry><title type="html">Another Astro Grad School Application Advice Post</title><link href="http://localhost:4000/posts/2024/09/grad-school-app/" rel="alternate" type="text/html" title="Another Astro Grad School Application Advice Post" /><published>2024-09-06T00:00:00-07:00</published><updated>2024-09-06T00:00:00-07:00</updated><id>http://localhost:4000/posts/2024/09/blog-post-1</id><content type="html" xml:base="http://localhost:4000/posts/2024/09/grad-school-app/">&lt;p&gt;Yes this is another post about the grad school application process.  I just went through this process and I am giving advice to a bunch of friends and thought I should write it down in one place.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-10-12T12:47:54-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Wolf Cukier</title><subtitle>Astrophysics</subtitle><author><name>Wolf Cukier</name><email>wcukier@uchicago.edu</email></author><entry><title type="html">Another Astro Grad School Application Advice Post</title><link href="http://localhost:4000/posts/2024/09/grad-school-app/" rel="alternate" type="text/html" title="Another Astro Grad School Application Advice Post" /><published>2024-10-07T00:00:00-07:00</published><updated>2024-10-07T00:00:00-07:00</updated><id>http://localhost:4000/posts/2024/09/blog-post-1</id><content type="html" xml:base="http://localhost:4000/posts/2024/09/grad-school-app/">&lt;p&gt;Yes this is another post about the grad school application process.  I just went through this process and I am giving advice to a bunch of friends and thought I should write it down in one place.&lt;/p&gt;
 
-&lt;p&gt;I personally was interested in exoplanets so I applied mostly to astronomy and astrophysics programs but I also applied to some planetary science and physics departments.  All of the programs I applied to were in North America and all but 1 were in the United States and I applied to graduate school while still an undergraduate.  My advice here will be most applicable if you are applying to similar programs and on a similar timeline to me, but some of this should be applicable to grad school applications generally.&lt;/p&gt;
+&lt;p&gt;I personally was interested in exoplanets so I applied mostly to astronomy and astrophysics programs but I also applied to some planetary science and physics departments.  All of the programs I applied to were in North America; all but 1 were in the United States.   I applied to graduate school while still an undergraduate.  My advice here will be most applicable if you are applying to similar programs and on a similar timeline to me, but some of this should be applicable to grad school applications generally.&lt;/p&gt;
 
 &lt;h2 id=&quot;the-grad-school-application&quot;&gt;The Grad School Application&lt;/h2&gt;
 &lt;p&gt;A complete application to a graduate school usually consists of the following items:&lt;/p&gt;
@@ -8,8 +8,8 @@
   &lt;li&gt;The application form&lt;/li&gt;
   &lt;li&gt;Three letters of recommendation&lt;/li&gt;
   &lt;li&gt;Your transcript&lt;/li&gt;
-  &lt;li&gt;Your statement of purpose / research statement / personal statement&lt;/li&gt;
   &lt;li&gt;Your CV&lt;/li&gt;
+  &lt;li&gt;Your statement of purpose / research statement / personal statement&lt;/li&gt;
   &lt;li&gt;(Maybe) Test Scores&lt;/li&gt;
   &lt;li&gt;The application fee&lt;/li&gt;
 &lt;/ul&gt;
@@ -46,6 +46,9 @@
 
 &lt;p&gt;After talking with people it is time to make decisions.  The exact number of schools you apply to is up to you but I recommend somewhere between 5-12.  Applying to many schools often costs money and can take time away from your other applications or schoolwork so fewer schools may be better.&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;  Whatever you decide, you should compile a list of deadlines for each school both for your purposes and to send to the people who are writing letters of recommendation for you.&lt;/p&gt;
 
+&lt;h2 id=&quot;the-application-portal&quot;&gt;The Application Portal&lt;/h2&gt;
+&lt;p&gt;Once you’ve picked which schools you are going to apply to I would open applications in all the relevant application portals.  Unfortunately there is no “common app” for grad school applications so you will need to open a new application with each school and put in the same info.  Navigating to each portal can be annoying so I recommend keeping a list of links somewhere.  Having applications open will allow you to request letters of recommendation from your letter writers early.  It also gives you an excuse to feel productive while actually procrastinating doing the “hard” parts of your application.&lt;/p&gt;
+
 &lt;h2 id=&quot;letters-of-recommendation&quot;&gt;Letters of Recommendation&lt;/h2&gt;
 &lt;p&gt;The letters of recommendation are one of the most important aspects of your application–they allow the admission committee direct insight into you as a researcher and you as a person.  The two main variables you should be maximizing when deciding to ask people for letters of recommendation are 1) how well does this person know me as a researcher and 2) how much will the admission committee weight a letter from that particular person.&lt;/p&gt;
 
@@ -55,7 +58,97 @@
 
 &lt;p&gt;You should be sure to ask your letter writers for a “strong” letter of recommendation and if they are hesitant to just ask another person–a bad or even milquetoast letter of recommendation can seriously hurt your application.  Some letter writers will ask for guidance on what you want them to emphasize–you should have your CV ready to give to them if they ask and you should have a general purpose for asking a particular person that you should be able to share–For my letter writers it was mostly because I wanted them to comment on the research I did under their supervision.  You should also be sure to furnish your letter writers with a list of schools you are applying to and the application deadlines.  Programs are usually more lenient with the deadlines for letter writers than applicants but you can never be too safe.&lt;/p&gt;
 
-&lt;h2 id=&quot;to-be-continued&quot;&gt;To be continued…&lt;/h2&gt;
+&lt;h2 id=&quot;your-transcript&quot;&gt;Your Transcript&lt;/h2&gt;
+&lt;p&gt;If you are a senior when reading this your transcript is pretty much already set in stone — very few schools actually will ask to or even give you the option to send them fall semester senior year grades (this is a bit dependent on when your first term grades are published to your transcript).  Programs do care about your grades but they definitely are not the end-all-be-all of your application.  Some things to note: freshman year undergrad grades really do not matter that much.  Similarly, if you took a course and got a bad grade but then took a more advanced version of the same course (like taking advanced E&amp;amp;M after freshman E&amp;amp;M) a lot more weight will be put on the second course.  Additionally, the courses which you took which are relevant to your grad school program and the rigor and grades within those courses matter a lot more than any distribution requirements you took.&lt;/p&gt;
+
+&lt;p&gt;Overall, your grades are used as a proxy for how successful you will be in grad school.  But note that grad school is much more research and classes matter a lot less—this means that if you have mediocre grades and strong research you are likely a stronger applicant than someone with little-to-no research and strong grades.  This is not to say the latter isn’t also a strong applicant—they are—but research plays an outsized role in your application.  One more thing to note is that after a certain point grades don’t matter—there is no real difference between an applicant with a 3.9 and an applicant with a 4.0 GPA.  Both of them have demonstrated significant academic excellence.&lt;/p&gt;
+
+&lt;h2 id=&quot;your-cv&quot;&gt;Your CV&lt;/h2&gt;
+&lt;p&gt;Most relevant information from your CV should be duplicated elsewhere in your application so I’m not sure how important it is overall but it is a good place to start before writing your personal statement.  I would look at CV’s from grad students, postdocs, and other early career researchers in your subfield for ideas but for a grad school CV in particular I would recommend the following:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Make sure your name is on the document near the top&lt;/li&gt;
+  &lt;li&gt;Have and Education section with your UG institution, major, and any minors you are planning to get listed&lt;/li&gt;
+  &lt;li&gt;If you have any publications either published, submitted, or in preparation have a publication section near the top of the CV.  I personally would limit yourself to only one listed in prep. publication because more than that seems like you are spinning your wheels and never actually finishing a project&lt;/li&gt;
+  &lt;li&gt;Have a section on research experience.  I put one entry for each project I did, whether or not it resulted in a publication.  Each entry has a title of the project, my advisor(s), what I did for the project + a brief description, and if the project was published or presented, a brief note about that.&lt;/li&gt;
+  &lt;li&gt;Some optional sections include a teaching experience section where you list any formal or informal teaching experience you have and/or an outreach section where you list outreach activities you were engaged in&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;CVs in general have no page limit but for grad apps I’d try to limit it to 2 sheets of paper.  You have a lot of freedom to structure your CV how you want to but if you are looking for a template, I used this one: &lt;a href=&quot;https://github.com/zachscrivena/simple-resume-cv&quot;&gt;https://github.com/zachscrivena/simple-resume-cv&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;statements&quot;&gt;Statements&lt;/h2&gt;
+&lt;p&gt;Most graduate school applications will ask you to write a statement of some sort.  These are usually called a personal statement or a statement of purpose.  Generally if a school only asks for one statement then the terms personal statement and statement of purpose are synonymous.  If the school asks for two different statements then the statement of purpose is the place you put your research related material and the personal statement is where you put everything else.&lt;/p&gt;
+
+&lt;p&gt;You will probably stress the most over these statements because they are the only thing at this point you have real control over.  Just note that while it is in your best interest to write good statements, they are ultimately just a small part of your application packages as a whole.  If there are two takeaways I want you to remember from the following advice they are:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Your personal statement is very different than the application you wrote for your undergraduate apps—instead of trying to convey that you are a well-rounded person, your statements should instead be &lt;strong&gt;designed to convince the application committee that you will succeed in their program if they accept you&lt;/strong&gt;.&lt;/li&gt;
+  &lt;li&gt;Get someone you trust who has gone to grad school in your field to read and give feedback on your application.  If possible get multiple people.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I want to emphasize point 1 again.  Your only job in the personal statement is to demonstrate that you will succeed in the program you are applying to.  This means your personal statement should be mostly focused on your research experience (75-85% of your statement), with a little bit of material discussing your research interests (5%-10%), outreach or service activities (5%-10%), specific fit with the institution you are applying to (5%-10%) and potentially some explanation of why another aspect of your application is not as strong as you hoped (0%-10%).&lt;/p&gt;
+
+&lt;p&gt;You can take some liberties on how exactly you structure your statements but this was my structure if the program only accepted one statement:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;A short (3 sentence paragraph) introducing my research interests and framing the statement&lt;/li&gt;
+  &lt;li&gt;A number of paragraphs, each detailing a different research experience I had.&lt;/li&gt;
+  &lt;li&gt;A paragraph describing my outreach and service experience&lt;/li&gt;
+  &lt;li&gt;A paragraph re-summarizing my research interests and listing specific faculty at the institution I wanted to work with.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Note that this is the format that made sense for my application—if your experience going into grad apps differs significantly from mine tweaking this format probably makes sense. I came into the application process with a lot of research experience so I could fill a lot of space summarizing a lot of different research projects I did.  If you have a lot of outreach experience you might want to devote a second paragraph to outreach and service.  If you had just one research project for example, you might instead devote multiple paragraphs to that one research project.&lt;/p&gt;
+
+&lt;p&gt;Lets walk through my personal statement for examples of each of these sections.  The first paragraph of my personal statement was as follows&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Throughout high school and college, I’ve worked to seize as many research opportunities as I could—both to satisfy my drive to better understand the universe and to explore many subfields to pinpoint which ones I am most interested in. Based on my past five and a half years of research, I particularly enjoy computational modeling of scientific questions—especially ones that pertain to planets, atmospheres, and small bodies. As such, I believe obtaining a PhD from the University of Chicago’s Department of Astronomy and Astrophysics would be a critical next step in a lifelong research career.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;These three sentences are my intro—one sentence to frame my research experience and explain the various research I had completed, one sentence that broadly outlines my research interests without excluding too much material, and a thesis like sentence that also demonstrates that I edited this essay specifically for the program I am applying to.  Note the distinct lack of the cliche phrase “When I was a child and looking up at the sky…”  The introductory paragraph of your statement should be concise and to the point.&lt;/p&gt;
+
+&lt;p&gt;The next set of paragraphs walk through my research in chronological order.  Some people instead group their research by thematic area—either is fine.  The lengths of each paragraph change by how much weight I want the particular research to have in my application package.  The most substantive paragraph describing my research was as follows:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Throughout most of my undergrad tenure, I have worked with Dr. Jamey Szalay on a project where we simulated the Geminids Meteoroid Stream; specifically, we compared our simulation output both to data from the Earth-Moon system and to newly made observations of the stream taken by the WISPR instrument on Parker Solar Probe (PSP). I developed three simplified models for the formation of the Geminids Stream, which I then implemented in a N-body code. The project had two main conclusions: 1) we found the Geminids Meteoroid Stream was likely formed in a “catastrophic” event, in contrast to the overwhelming majority of streams which form by cometary activity; 2) we found the Geminids Meteoroid Stream, and likely meteoroid streams in general, are unlikely to contribute appreciably to impactor flux incident upon spacecraft due to their diffuse nature and the high speeds at which the spacecraft fly though them. I wrote all the simulation code—which is open source on GitHub—for this project, performed the analysis of the simulation data, and led a study that was recently published in the Planetary Science Journal (Cukier and Szalay 2023). I presented this project at AAS #231 in Seattle, where I won an Honorable Mention for the Chambliss Astronomy Student Achievement Award. I also presented this research at a PSP Science Working Group telecon and at a talk to the Institute for Advanced Study.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This paragraph has an incredibly short transition phrase from the previous paragraph “throughout most of my undergrad tenure,” identifies my advisor, what the project was about, my specific contributions to the project, the scientific results of the project, and the paper and talks that resulted from my completion of the project.  This project was my most significant research work that I completed so I spent a good amount of space discussing it—specifically I spent more time discussing the conclusions of the study and my specific contributions.  The goal of paragraphs like these, besides communicating that you did research, is to help the admissions committee tease out specifically what parts of the research you are responsible vs your advisor and if you can write coherently about your research in a way that demonstrates understanding.&lt;/p&gt;
+
+&lt;p&gt;Since doing research is not the only thing a researcher does as part of their job, you should include a paragraph of any service or outreach activities you have completed.  Personally, this is one of the hardest paragraphs to write as you need to balance selling yourself without feeling like you are commoditizing your identity or programs you believe in.  Here is what I wrote for this section:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;As one of the undergraduate representatives on my department’s Climate Committee, I have been working to help lower various barriers to engaging in astrophysics. Undergraduate students in my department report undue work-related stress and a lack of comfort engaging in department events. Part of my work has been to suggest possible mechanisms such as a set number of “late-days” that might reduce stress in an equitable manner without sacrificing academic rigor. Another initiative that I am helping to develop is a series of undergraduate focused research talks that introduce research happening in astrophysics and provide a safe space to learn to ask thought out questions. Lastly, as a Queer person in astronomy, the lack of openly Queer people in my department, especially at more senior levels, is striking. To help alleviate this gap in representation, I help to run my department’s LGBTQ+ affinity group so those of us who do exist can find camaraderie in each other.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In this paragraph I tried to ensure that I both mentioned initiatives that I was a part of and also what specifically I did as part of those initiatives.  Also note that I talk about being a Queer person in astronomy—if you are part of a marginalized group you need to determine how much you want to discuss your marginalized identity.  I talked about it because I am relatively comfortable being out and to me it felt like a significant part of my story as an astrophysicist but I could have omitted it completely and my application’s strength would have been very unlikely to change at all.  Basically feel free to omit things if you aren’t comfortable sharing them.&lt;/p&gt;
+
+&lt;p&gt;Lastly, you want a paragraph that indicates you actually know what program you are applying to.  My general rule is that you should mention three professors / potential PhD advisors and a short (3-4 word) synopsis of their research that interests you.  If there are specific resources like national labs that are relevant to your interests that the university has a relationship with also mention those here.  My paragraph, with the specific professors and projects removed, is as follows:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The University of Chicago’s Department of Astronomy and Astrophysics would be a great place for me to further my scientific interests in planetary dynamics and planets generally. Between Professor [NAME]’s work on [PROJECT], Professor [NAME]’s work investigating [PROJECT], and Professor [NAME]’s work on [PROJECT] there are many interesting projects that I would be excited to be involved in. I am excited to enter this next phase of my research career, and hope that I can do so at the University of Chicago.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Note that the only thing I changed between schools, assuming they had the same word count / page limits, was the name of the department in the first and last paragraphs of my statement, along with the sentence describing which professor’s I wanted ot work with.&lt;/p&gt;
+
+&lt;h3 id=&quot;more-than-one-statement&quot;&gt;More than one statement&lt;/h3&gt;
+&lt;p&gt;Sometimes a program will ask for both a statement of purpose and a personal statement.  If this is the case, read the instructions in the application for what they want in each statement.  If there little to no instruction, place your research work in the statement of purpose and move the one paragraph about service and outreach to the personal statement.  You should then flesh out both parts to take advantage of the extra space that you have.&lt;/p&gt;
+
+&lt;h3 id=&quot;getting-feedback&quot;&gt;Getting Feedback&lt;/h3&gt;
+&lt;p&gt;I highly recommend getting someone who has recently applied to grad school or served on a grad school admission committee to look over your statements.  Yes, your statements can be personal and sharing it can make you feel vulnerable so ideally you will do this with someone you trust but I cannon emphasize enough that the first draft of your personal statement is highly likely to suck and getting feedback on how you can turn your first or second draft statement into a highly polished one cannot be overrated.  My recommendation is to show it to multiple people and keep editing until all edits you receive are superficial.  It probably took me ~6-7 drafts to get to this place counting both my GRFP statements and my statements for grad school specifically.&lt;/p&gt;
+
+&lt;h2 id=&quot;test-scores&quot;&gt;Test Scores&lt;/h2&gt;
+&lt;p&gt;You probably &lt;strong&gt;don’t&lt;/strong&gt; need to take the GRE but things might have changed since I was applying.  Before COVID, many schools were starting to phase out the GRE and COVID accelerated that process.  That being said, many schools have the GRE “temporarily optional due to COVID” but I personally think there is not enough political will amongst the faculty in many institutions to either phase out the GRE completely or to reinstate it.  My recommendation is unless a school requires the GRE, don’t take the GRE.  Note that from what I’ve been told, schools that have an “optional” GRE receive so few GRE scores that the GRE score they do receive are practically useless.&lt;/p&gt;
+
+&lt;h2 id=&quot;application-fee&quot;&gt;Application Fee&lt;/h2&gt;
+&lt;p&gt;The application fee to most schools is somewhere between $50-$120.  Note that there is often a way to get a fee waiver.  If you previously participated in a program specifically for underrepresented students such as QuestBridge (check each school for a list of eligible programs) you are often automatically eligible for a fee waiver.  Individual departments are also generally able to waive the application fee.  If there is no obvious email listed on the application or department website, I would find someone with a title such as “academic administrator” and email them asking who to talk to for a fee waiver.&lt;/p&gt;
+
+&lt;h2 id=&quot;more-resources&quot;&gt;More Resources&lt;/h2&gt;
+&lt;p&gt;Here are a few resources I felt were useful when thinking about my own application&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.gps.caltech.edu/documents/4355/GPS_AdmissionsRubric_Fall2021_Final.pdf&quot;&gt;Caltech GPS Application Rubric&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://astrobites.org/guides/astrobites-graduate-school-guide/&quot;&gt;Astrobites Grad School Guide&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=tz42lx6BhqY&quot;&gt;“Your Personal Statement Sucks” – Angela Collier (Video)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
   &lt;ol&gt;

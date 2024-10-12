@@ -6,15 +6,16 @@ author_profile: true
 redirect_from:
   - /about/
   - /about.html
+layout: single-about
 ---
 
-Hi!  I'm a Graduate Student at UChicago (entering Fall 2024) and am pursuing a PhD in Astronomy and Astrophysics.  I am generally interested in exoplanets, mostly from a theoretical or computational perspective.
+Hi!  I'm a Graduate Student at UChicago pursuing a PhD in Astronomy and Astrophysics.  I am generally interested in exoplanets, mostly from a theoretical or computational perspective.  My current work involves modeling clouds and radiation in brown dwarfs and directly imaged giant planets.
 
 
 
 ## (Sci-Fi/Fantasy) Book Recommendations
 - An Unkindness of Ghosts by Rivers Solomon
-  
+
 - The Broken Earth Trilogy by N. K. Jemisin
 
 - The Green Bone Saga by Fonda Lee

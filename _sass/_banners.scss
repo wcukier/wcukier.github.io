@@ -1,0 +1,15 @@
+.banner {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 40vh; /* Allow it to adjust to the image size */
+    // z-index: 10; /* Higher value can help */
+  }
+  
+  .banner img {
+    width: 100%; /* Ensure the image covers the width */
+    height: 100%; /* Ensure the image covers the height */
+    object-fit: cover; /* Maintain aspect ratio while filling the container */
+    object-position: center 75%; /* Adjust to slightly raise the image focus */
+  }
+
