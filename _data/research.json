@@ -1,0 +1,59 @@
+[
+  {
+    "title": "A Comparison of Geminid Models with the PSP/WISPR-observed Phaethon Dust Trail",
+    "url": "https://iopscience.iop.org/article/10.3847/1538-4357/adc801",
+    "citation": "Battams et al. 2025",
+    "image": "battams2025.png",
+    "first_author": false,
+    "journal": "The Astrophysical Journal",
+    "year": 2025,
+    "description": "",
+    "links": [
+      {"label": "PDF", "url": "https://iopscience.iop.org/article/10.3847/1538-4357/adc801"}
+    ],
+    "featured": false
+  },
+  {
+    "title": "TOI-1338: TESS' First Transiting Circumbinary Planet",
+    "url": "https://iopscience.iop.org/article/10.3847/1538-3881/ab8a48/pdf",
+    "citation": "Kostov et al. 2020",
+    "image": "kostov2020.png",
+    "first_author": false,
+    "journal": "The Astronomical Journal",
+    "year": 2020,
+    "description": "",
+    "links": [
+      {"label": "PDF", "url": "https://iopscience.iop.org/article/10.3847/1538-3881/ab8a48/pdf"}
+    ],
+    "featured": true
+  },
+  {
+    "title": "Habitable Zone Boundaries for Circumbinary Planets",
+    "url": "https://arxiv.org/pdf/1911.02983.pdf",
+    "citation": "Cukier et al. 2019",
+    "image": "cukier2019.png",
+    "first_author": true,
+    "journal": "Publications of the Astronomical Society of the Pacific",
+    "year": 2019,
+    "description": "",
+    "links": [
+      {"label": "PDF", "url": "https://arxiv.org/pdf/1911.02983.pdf"}
+    ],
+    "featured": true
+  },
+  {
+    "title": "Formation, Structure, and Detectability of the Geminids Meteoroid Stream",
+    "url": "https://www.doi.org/10.3847/PSJ/acd538",
+    "citation": "Cukier & Szalay 2023",
+    "image": "cukier2023.png",
+    "first_author": true,
+    "journal": "Planetary Science Journal",
+    "year": 2023,
+    "description": "",
+    "links": [
+      {"label": "PDF", "url": "https://www.doi.org/10.3847/PSJ/acd538"},
+      {"label": "Code", "url": "https://github.com/wcukier/Phaethon_Meteoroids"}
+    ],
+    "featured": true
+  }
+]
