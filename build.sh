@@ -3,6 +3,21 @@ set -euo pipefail
 
 POSTS_SRC="_posts"
 TEMPLATE="templates/post.html"
+RESEARCH_SRC="_research_pages"
+RESEARCH_TEMPLATE="templates/research_page.html"
+
+for src in "$RESEARCH_SRC"/*.md; do
+  [ -f "$src" ] || continue
+  slug=$(basename "$src" .md)
+  out="research/${slug}/index.html"
+  mkdir -p "$(dirname "$out")"
+  pandoc "$src" \
+    --template="$RESEARCH_TEMPLATE" \
+    --from=markdown \
+    --to=html5 \
+    --output="$out"
+  echo "built: $out"
+done
 
 for src in "$POSTS_SRC"/*.md; do
   [ -f "$src" ] || continue

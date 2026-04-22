@@ -298,6 +298,7 @@ img.profile-avatar { background: none; }
 
 /* ── PROSE (blog posts) ── */
 .prose { font-size: 0.975rem; color: #c9d1d9; }
+.prose img { max-width: 100%; height: auto; border-radius: var(--radius); }
 .prose h1, .prose h2, .prose h3 {
   color: var(--text);
   font-weight: 600;
@@ -342,8 +343,20 @@ img.profile-avatar { background: none; }
 }
 
 .post-header { margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--border); }
-.post-header h1 { font-size: 1.4rem; font-weight: 700; margin-bottom: 0.4rem; }
+.post-header h1 { font-size: 1.4rem; font-weight: 700; margin-bottom: 0.5rem; }
 .post-header .post-date { display: block; margin-top: 0.25rem; }
+.research-page-meta { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; margin-top: 0.35rem; }
+.research-page-meta .post-date { margin-top: 0; }
+.research-page-venue { font-size: 0.85rem; color: var(--accent); opacity: 0.85; }
+.research-page-links { margin-top: 0.75rem; }
+.research-page-links a {
+  display: inline-flex; align-items: center; gap: 0.4rem;
+  font-size: 0.82rem; color: var(--muted); text-decoration: none;
+  padding: 0.3rem 0.7rem; border: 1px solid var(--border);
+  border-radius: 5px; transition: all 0.15s;
+}
+.research-page-links a:hover { color: var(--text); border-color: var(--accent); }
+.research-page-citation p { font-size: 0.85rem; color: var(--muted); font-style: italic; }
 
 /* ── FOOTER ── */
 footer {

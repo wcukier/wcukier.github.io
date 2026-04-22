@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>$title$ · Wolf Cukier</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css">
+  <link rel="stylesheet" href="../../css/main.css">
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a class="nav-name" href="../../">wolf cukier</a>
+      <ul class="nav-links">
+        <li><a href="../../research/" class="active">Research</a></li>
+        <li><a href="../../blog/">Blog</a></li>
+        <li><a href="../../files/cv.pdf">CV</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="page-wrapper">
+    <main class="content">
+
+      <div class="post-header">
+        <h1>$title$</h1>
+        <div class="research-page-meta">
+          <span class="post-date">$date$</span>
+          $if(venue)$<span class="research-page-venue"><em>$venue$</em></span>$endif$
+        </div>
+        $if(paperurl)$
+        <div class="research-page-links">
+          <a href="$paperurl$"><i class="fas fa-file-pdf"></i> Download PDF</a>
+        </div>
+        $endif$
+      </div>
+
+      <div class="prose">
+        $body$
+      </div>
+
+      $if(citation)$
+      <div class="research-page-citation">
+        <div class="section-header" style="margin-top:2rem;"><h2>Citation</h2></div>
+        <p>$citation$</p>
+      </div>
+      $endif$
+
+    </main>
+  </div>
+
+  <footer>
+    <span>Wolf Cukier · wolfcukier.com</span>
+    <span><a href="../../research/" style="color:inherit;text-decoration:none;">← all research</a></span>
+  </footer>
+
+</body>
+</html>
