@@ -55,5 +55,19 @@
       {"label": "Code", "url": "https://github.com/wcukier/Phaethon_Meteoroids"}
     ],
     "featured": true
+  },
+    {
+    "title": "CARMApy: An Open-Source Python Framework for Simulating Microphysical Clouds and Hazes in Planetary Atmospheres",
+    "url": "https://carmapy.readthedocs.io/en/latest/",
+    "citation": "Cukier et al. in Prep",
+    "image": "carmapy2026.png",
+    "first_author": true,
+    "journal": "",
+    "year": 2026,
+    "description": "",
+    "links": [
+      {"label": "Code", "url": "https://github.com/wcukier/carmapy"}
+    ],
+    "featured": true
   }
 ]
