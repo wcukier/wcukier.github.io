@@ -62,13 +62,14 @@ cat > blog/index.html <<'HTMLEOF'
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blog · Wolf Cukier</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
   <nav>
     <div class="nav-inner">
-      <a class="nav-name" href="../">wolf cukier</a>
+      <a class="nav-name" href="../">Wolf Cukier</a>
       <ul class="nav-links">
         <li><a href="../research/">Research</a></li>
         <li><a href="../blog/" class="active">Blog</a></li>
@@ -79,7 +80,7 @@ cat > blog/index.html <<'HTMLEOF'
   <div class="page-wrapper">
     <main class="content">
       <section class="section">
-        <div class="section-header"><h2>Posts</h2></div>
+        <div class="section-header"><div class="section-rule"><img class="section-planet" src="../images/planet_logo.svg" alt=""></div><h2>Posts</h2></div>
         <ul class="post-list">
 HTMLEOF
 
@@ -141,7 +142,7 @@ with open('_data/research.json') as f:
     papers = sorted(json.load(f), key=lambda p: p['year'], reverse=True)
 
 LINK_ICONS = {
-    'pdf':  'fas fa-file-pdf',
+    'pdf':  'fas fa-file-lines',
     'code': 'fab fa-github',
     'arxiv': 'ai ai-arxiv',
 }
@@ -169,7 +170,7 @@ def make_rows(papers, img_prefix=''):
             + img_html +
             f'            <div>\n'
             f'              <div class="row-title"><a href="{p["url"]}">{p["title"]}</a></div>\n'
-            f'              <div class="row-venue">{p["citation"]} · <em>{p["journal"]}</em></div>\n'
+            f'              <div class="row-venue">{p["citation"]}<em> · {p["journal"]}</em></div>\n'
             f'              <div class="row-desc">{p["description"]}</div>\n'
             f'            </div>\n'
             f'            <div class="row-meta">\n'
@@ -191,7 +192,7 @@ def full_sections(papers, img_prefix=''):
             continue
         sections.append(
             f'      <section class="section">\n'
-            f'        <div class="section-header"><h2>{heading}</h2></div>\n'
+            f'        <div class="section-header"><div class="section-rule"><img class="section-planet" src="{img_prefix}planet_logo.svg" alt=""></div><h2>{heading}</h2></div>\n'
             f'        <div class="research-grid">\n\n'
             + make_rows(group, img_prefix) + '\n\n'
             f'        </div>\n'
@@ -217,7 +218,7 @@ def make_featured_rows(papers, img_prefix=''):
             + img_html +
             f'            <div>\n'
             f'              <div class="row-title"><a href="{p["url"]}">{p["title"]}</a></div>\n'
-            f'              <div class="row-venue">{p["citation"]} · <em>{p["journal"]}</em> · {p["year"]}</div>\n'
+            f'              <div class="row-venue">{p["citation"]}<em> · {p["journal"]}</em></div>\n'
             f'              <div class="row-desc">{p["description"]}</div>\n'
             f'              <div class="row-links">\n'
             f'{links_html}\n'
