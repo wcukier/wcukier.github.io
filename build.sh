@@ -62,9 +62,11 @@ cat > blog/index.html <<'HTMLEOF'
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Blog · Wolf Cukier</title>
+  <link rel="icon" type="image/svg+xml" href="../images/planet_logo.svg">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="../css/main.css">
+  <link rel="alternate" type="application/rss+xml" title="Wolf Cukier" href="/blog/feed.xml">
 </head>
 <body>
   <nav>
@@ -81,6 +83,7 @@ cat > blog/index.html <<'HTMLEOF'
     <main class="content">
       <section class="section">
         <div class="section-header"><div class="section-rule"><img class="section-planet" src="../images/planet_logo.svg" alt=""></div><h2>Posts</h2></div>
+        <a class="rss-link" href="/blog/feed.xml">RSS Feed</a>
         <ul class="post-list">
 HTMLEOF
 
@@ -125,8 +128,9 @@ cat >> blog/index.html <<'HTMLEOF'
     </main>
   </div>
   <footer>
-    <span>Wolf Cukier · wolfcukier.com</span>
-    <span>wcukier@uchicago.edu</span>
+    <span>Wolf Cukier</span>
+    <span>wolfcukier.com</span>
+    <span><a href="mailto:wcukier@uchicago.edu" style="color:inherit;text-decoration:none;">wcukier@uchicago.edu</a></span>
   </footer>
 </body>
 </html>
@@ -134,121 +138,5 @@ HTMLEOF
 
 echo "rebuilt: blog/index.html"
 
-# Regenerate research sections in research.html and index.html from _data/research.json
-python3 - <<'PYEOF'
-import json, re
-
-with open('_data/research.json') as f:
-    papers = sorted(json.load(f), key=lambda p: p['year'], reverse=True)
-
-LINK_ICONS = {
-    'pdf':  'fas fa-file-lines',
-    'code': 'fab fa-github',
-    'arxiv': 'ai ai-arxiv',
-}
-
-def link_icon(label):
-    return LINK_ICONS.get(label.lower(), 'fas fa-link')
-
-def make_rows(papers, img_prefix=''):
-    rows = []
-    for i, p in enumerate(papers, 1):
-        num = f'{i:02d}'
-        links_html = '\n'.join(
-            f'              <a href="{l["url"]}"><i class="{link_icon(l["label"])}"></i> {l["label"]}</a>'
-            for l in p['links']
-        )
-        img = p.get('image', '')
-        if img and img_prefix:
-            row_class = 'research-row has-image'
-            img_html = f'            <div class="row-img"><img src="{img_prefix}{img}" alt=""></div>\n'
-        else:
-            row_class = 'research-row'
-            img_html = ''
-        rows.append(
-            f'          <div class="{row_class}">\n'
-            + img_html +
-            f'            <div>\n'
-            f'              <div class="row-title"><a href="{p["url"]}">{p["title"]}</a></div>\n'
-            f'              <div class="row-venue">{p["citation"]}<em> · {p["journal"]}</em></div>\n'
-            f'              <div class="row-desc">{p["description"]}</div>\n'
-            f'            </div>\n'
-            f'            <div class="row-meta">\n'
-            f'              <div class="row-year">{p["year"]}</div>\n'
-            f'              <div class="row-links">\n'
-            f'{links_html}\n'
-            f'              </div>\n'
-            f'            </div>\n'
-            f'          </div>'
-        )
-    return '\n\n'.join(rows)
-
-def full_sections(papers, img_prefix=''):
-    first = [p for p in papers if p.get('first_author')]
-    other = [p for p in papers if not p.get('first_author')]
-    sections = []
-    for heading, group in [('First Author', first), ('Other Publications', other)]:
-        if not group:
-            continue
-        sections.append(
-            f'      <section class="section">\n'
-            f'        <div class="section-header"><div class="section-rule"><img class="section-planet" src="{img_prefix}planet_logo.svg" alt=""></div><h2>{heading}</h2></div>\n'
-            f'        <div class="research-grid">\n\n'
-            + make_rows(group, img_prefix) + '\n\n'
-            f'        </div>\n'
-            f'      </section>'
-        )
-    return '\n\n'.join(sections)
-
-def make_featured_rows(papers, img_prefix=''):
-    rows = []
-    for i, p in enumerate([x for x in papers if x.get('featured')], 1):
-        num = f'{i:02d}'
-        img = p.get('image', '')
-        img_html = (
-            f'            <div class="row-img"><img src="{img_prefix}{img}" alt=""></div>\n'
-            if img and img_prefix else ''
-        )
-        links_html = '\n'.join(
-            f'              <a href="{l["url"]}"><i class="{link_icon(l["label"])}"></i> {l["label"]}</a>'
-            for l in p.get('links', [])
-        )
-        rows.append(
-            f'          <div class="featured-row">\n'
-            + img_html +
-            f'            <div>\n'
-            f'              <div class="row-title"><a href="{p["url"]}">{p["title"]}</a></div>\n'
-            f'              <div class="row-venue">{p["citation"]}<em> · {p["journal"]}</em></div>\n'
-            f'              <div class="row-desc">{p["description"]}</div>\n'
-            f'              <div class="row-links">\n'
-            f'{links_html}\n'
-            f'              </div>\n'
-            f'            </div>\n'
-            f'          </div>'
-        )
-    return '\n\n'.join(rows)
-
-def stub_section(papers):
-    return (
-        '      <div class="research-grid">\n\n'
-        + make_featured_rows(papers, img_prefix='images/') + '\n\n'
-        '      </div>'
-    )
-
-def splice(filepath, inner_html):
-    with open(filepath) as f:
-        content = f.read()
-    replacement = '<!-- BEGIN_RESEARCH -->\n' + inner_html + '\n      <!-- END_RESEARCH -->'
-    content = re.sub(
-        r'<!-- BEGIN_RESEARCH -->.*?<!-- END_RESEARCH -->',
-        replacement,
-        content,
-        flags=re.DOTALL
-    )
-    with open(filepath, 'w') as f:
-        f.write(content)
-
-splice('research/index.html', full_sections(papers, img_prefix='../images/'))
-splice('index.html', stub_section(papers))
-print('rebuilt: research sections')
-PYEOF
+# Regenerate about, books, and research sections from data files
+python3 _build/generate.py

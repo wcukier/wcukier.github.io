@@ -13,6 +13,7 @@ I personally was interested in exoplanets so I applied mostly to astronomy and a
 
 ## The Grad School Application
 A complete application to a graduate school usually consists of the following items:
+
 - The application form
 - Three letters of recommendation
 - Your transcript

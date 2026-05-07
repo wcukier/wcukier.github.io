@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wolf Cukier</title>
+    <link>https://wolfcukier.com/blog/</link>
+    <atom:link href="https://wolfcukier.com/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <description>Blog posts by Wolf Cukier</description>
+    <lastBuildDate>Thu, 07 May 2026 16:12:26 +0000</lastBuildDate>
+
+    <item>
+      <title>Another Astro Grad School Application Advice Post</title>
+      <link>https://wolfcukier.com/blog/2024-09-grad-school-app/</link>
+      <guid>https://wolfcukier.com/blog/2024-09-grad-school-app/</guid>
+      <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
+      <description><![CDATA[<p>Yes this is another post about the grad school application process. I just went through this process and I am giving advice to a bunch of friends and thought I should write it down in one place.</p>]]></description>
+    </item>
+  </channel>
+</rss>
